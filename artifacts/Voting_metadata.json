@@ -1,0 +1,148 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "candidates",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_candidate",
+						"type": "address"
+					}
+				],
+				"name": "getVote",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getVotes",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "candidate",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "votes",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Voting.CandidateInfo[]",
+						"name": "results",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetVotes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_candidate",
+						"type": "address"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "votes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Voting.sol": "Voting"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Voting.sol": {
+			"keccak256": "0xcdbfff08c7ccd74c587a5fdd2952958dce390fdba1e11e93b1f1cad1381884f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a2d17626dea1dc57303d6a42db4beed836be6b14e90351a1c013f42173416bb5",
+				"dweb:/ipfs/QmQ1T5QzhDVE7LQPMNWpx44KmYKRV252tvQmL9dTTjutvu"
+			]
+		}
+	},
+	"version": 1
+}

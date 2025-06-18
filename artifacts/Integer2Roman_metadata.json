@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "intToRoman",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Integer2Roman.sol": "Integer2Roman"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Integer2Roman.sol": {
+			"keccak256": "0x36a55d5d5b25beb71dc861523c7103973eb323c575ccf6047fe412e84b0c7ce7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7132c10e03ea6df90a09cb3fe7f5f644423be4064b3286a8d3baaaa39366d1fc",
+				"dweb:/ipfs/QmanrExBsr5g7PYjDHU98tVv7GkqLuV58hKXpRZZgsv6KT"
+			]
+		}
+	},
+	"version": 1
+}
